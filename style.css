@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(226, 128, 218);
+}
+
+#canvas {
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 10px 20px rgb(21, 253, 253);
+    position: relative;
+}
+
+#side-panel {
+    height: 600px;
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 50px;
+    background-color: white;
+    box-shadow: 5px 10px 20px rgb(21, 253, 253);
+}
+
+.flex-item {
+    margin: 1em;
+}
+
+.shape {
+    position: absolute;
+}
+
+#rectangle {
+    position: absolute;
+    background-color: rgba(21, 253, 253, 0.75);
+}
+
+#square {
+    position: absolute;
+    background-color: rgba(243, 141, 235, 0.75);
+}
+
+#circle {
+    position: absolute;
+    background-color: rgba(94, 243, 94, 0.75);
+    border-radius: 50%;
+}
+
+#triangle {
+    position: absolute;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid rgba(248, 248, 116, 0.75);
+}
